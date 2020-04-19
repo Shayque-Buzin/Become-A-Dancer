@@ -1,0 +1,195 @@
+/* Setup default styles */
+
+
+    body {
+        margin: 0 auto;
+        /* border: 1px solid black; */
+        max-width: 80%;
+        text-align: right;
+        font-family: 'Rubik', sans-serif;
+        /* background-color: #F0F1F2; */
+        color: #161C30;
+        font-size: 1.1em;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        width: 100%; 
+    }
+
+    header {
+        padding: 5px 0;
+        background-color: white;
+    }
+
+    .header-text{
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    h1, h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+/* End of elements */
+
+/* layout */    
+.main-container {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 100%;
+}
+/* @media (min-width:490px) */
+
+.welcome {
+    padding: 2em;
+    background-image: linear-gradient(to left, rgb(240, 240, 255) , white);
+}
+
+.intro {
+    text-align: center;
+    margin: 0 auto;
+    width:80%;
+ }
+
+.container {
+    text-align: center;
+    padding: 0em 5em;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.course-description {
+    text-align: right;
+    font-weight: 500;
+}
+.section-lambada {
+}
+
+.course-achivments {
+}
+
+.light-bulb-image {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.course-content {
+    width: 100%;
+}
+
+.polaroid-container {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.dreaming-lambada {
+        
+    /* border: 1px solid black; */
+    text-align: right;
+}
+
+.certificate-container {
+    margin: 50px 0px 100px 0px;
+    padding: 4px 4px 0px 4px;
+  }
+  
+.how-does-it-work{}
+
+
+/* End of layout */
+
+
+/* add-ons */
+
+    .intro h1{
+        margin-bottom: 1em;
+    }
+
+    .bigger {
+        font-size: 1.2em;
+    }
+
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+/* End of add-ons */
+
+
+/* lists */
+    ul {
+        padding-right: 0rem;
+    }
+    .course-achivments li {
+        background-image: url("../images/V-icon.png");
+    }
+    .course-content li {
+        background-image: url("../images/arrow-icon-blue-1.png");
+    }
+
+    li {
+        margin: 0;
+        padding: 8px 0px;
+        list-style: none;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 20px;
+        text-align: right;
+        width: 100%;
+    }
+
+    li:last-child {
+        margin-bottom: 40px;
+    }
+
+    .bullet-text {
+        padding-right: 37px;
+        color: rgb(46, 66, 92);
+    }
+
+
+/* End of lists */
+
+/* images */
+
+    .zouk-lambada-logo {
+        padding: 0;
+        margin-top: 2em;
+    }
+
+    .container-header-img {
+        width:50%;
+        padding-left: 1em;
+        order: 1;
+    }
+
+    div.polaroid {
+        width: 284px;
+        padding: 10px 10px 20px 10px;
+        border: 1px solid #BFBFBF;
+        background-color: white;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        margin-bottom: 50px;
+      }
+      
+      div.rotate_left {
+        /* float: left; */
+        -ms-transform: rotate(-8deg); /* IE 9 */
+        -webkit-transform: rotate(-8deg); /* Safari */
+        transform: rotate(-8deg);
+      }
+
+      .shadow-box {
+        padding: 10px;
+        box-shadow: 5px 18px 10px  #888888;
+      }
+/* End of images */
+
