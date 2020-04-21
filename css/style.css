@@ -1,4 +1,7 @@
 /* Setup default styles */
+* {
+    box-sizing: border-box;
+}
     body {
         margin: 0 auto;
         max-width: 100%;
@@ -33,9 +36,7 @@
 
 /* End of elements */
 
-/* layout */    
-
-
+/* layout */
 .welcome {
     padding: 2em;
     background-image: linear-gradient(to left, rgb(240, 240, 255) , white);
