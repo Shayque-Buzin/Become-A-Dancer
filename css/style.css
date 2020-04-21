@@ -171,17 +171,17 @@ li:last-child {
 /* images */
 
 .container-header-img {
-    width:40%;
+    width:30%;
     max-width: 350px;
     padding-left: 1em;
     order: 1;
 }
 
-div.polaroid {
-    width: 284px;
+.new-poladorid {
+
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
-    background-color: white;
+    
     box-shadow: 10px 10px 5px #aaaaaa;
     margin-bottom: 50px;
 }
