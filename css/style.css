@@ -3,11 +3,8 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow: hidden;
-}
-
 body {
+    overflow-x: hidden;
     border: 1px solid black; 
     margin: 0;
     max-width: 100%;
