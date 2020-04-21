@@ -1,20 +1,14 @@
 /* Setup default styles */
-
-
     body {
         margin: 0 auto;
-        /* border: 1px solid black; */
         max-width: 100%;
         text-align: right;
         font-family: 'Rubik', sans-serif;
-        /* background-color: #F0F1F2; */
         color: #161C30;
         font-size: 1.1em;
     }
 
     img {
-        margin: 0;
-        padding: 0;
         width: 100%; 
     }
 
@@ -23,18 +17,18 @@
         background-color: white;
     }
 
-    .header-text{
-        width: 100%;
-        max-width: 1000px;
-    }
-
-    p {
-        margin: 0;
-    }
-
-    h1, h2 {
+    img, p, h1, h2 {
         padding: 0;
         margin: 0;
+    }
+
+    h1 {
+        padding-bottom: 1rem;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
     }
 
 /* End of elements */
@@ -45,16 +39,45 @@
     margin: 0 auto;
     width: 100%;
 }
-/* @media (min-width:490px) */
 
 .welcome {
     padding: 2em;
     background-image: linear-gradient(to left, rgb(240, 240, 255) , white);
+    display: flex;
+    flex-direction: column;
+}
+.welcome-paragraph {
+    padding-bottom: 1em;
 }
 
-.intro {
+@media (min-width:800px) {
+    .main-container {
+        width: 80%;
+        max-width: 900px;
+        margin-top: 2rem;
+    }
+    .welcome {
+        padding: 1em 0;
+        flex-direction: row;
+    }
+    .welcome-paragraph {
+        width:45%;
+        margin: auto auto;
+        padding: 1rem;
+    }
+    .welcome-img {
+        width:45%;
+        min-width: 350px;
+        margin: auto 0;
+        padding: 1rem;
+        padding-left: 0;
+    }
+}
+
+.container-intro {
     text-align: center;
     margin: 0 auto;
+    padding: 1em 0;
     width:80%;
  }
 
@@ -65,23 +88,41 @@
     background-color: white;
 }
 
-.course-description {
-    text-align: right;
+.container-course {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:800px) {
+    .container-course {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-course-description {
+        width: 45%;
+    }
+
+    .second-container {
+        padding-left: 20px;
+        order: -1;
+    }
+    
+    .container-course-image {
+        width: 45%;
+        margin: auto auto;
+    }
+}
+
+.container-course-description {
+    /* max-width: 380px; */
     font-weight: 500;
-}
-.section-lambada {
-}
-
-.course-achivments {
-}
-
-.light-bulb-image {
     margin: 0 auto;
-    width: 80%;
+    text-align: right;
 }
 
-.course-content {
-    width: 100%;
+.container-course-description h1 {
+    text-align: center;
 }
 
 .polaroid-container {
@@ -90,48 +131,24 @@
 }
 
 .dreaming-lambada {
-        
-    /* border: 1px solid black; */
     text-align: right;
 }
 
 .certificate-container {
     margin: 50px 0px 100px 0px;
     padding: 4px 4px 0px 4px;
-  }
-  
-.how-does-it-work{}
-
+}
 
 /* End of layout */
-
-
-/* add-ons */
-
-    .intro h1{
-        margin-bottom: 1em;
-    }
-
-    .bigger {
-        font-size: 1.2em;
-    }
-
-    .container-flex {
-        display: flex;
-        justify-content: space-between;
-    }
-
-/* End of add-ons */
-
 
 /* lists */
     ul {
         padding-right: 0rem;
     }
-    .course-achivments li {
+    .V-bullet li {
         background-image: url("../images/V-icon.png");
     }
-    .course-content li {
+    .arrow-bullet li {
         background-image: url("../images/arrow-icon-blue-1.png");
     }
 
@@ -155,18 +172,12 @@
         color: rgb(46, 66, 92);
     }
 
-
 /* End of lists */
 
 /* images */
-
-    .zouk-lambada-logo {
-        padding: 0;
-        margin-top: 2em;
-    }
-
     .container-header-img {
-        width:50%;
+        width:40%;
+        max-width: 350px;
         padding-left: 1em;
         order: 1;
     }
