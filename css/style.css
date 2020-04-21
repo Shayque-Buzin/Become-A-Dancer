@@ -34,11 +34,7 @@
 /* End of elements */
 
 /* layout */    
-.main-container {
-    border: 1px solid black;
-    margin: 0 auto;
-    width: 100%;
-}
+
 
 .welcome {
     padding: 2em;
