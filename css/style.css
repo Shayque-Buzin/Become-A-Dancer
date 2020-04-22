@@ -177,11 +177,12 @@ li:last-child {
     order: 1;
 }
 
-.new-poladorid {
 
+/***** Polaroid *****/
+
+.new-poladorid {
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
-    
     box-shadow: 10px 10px 5px #aaaaaa;
     margin-bottom: 50px;
 }
@@ -197,10 +198,7 @@ div.rotate_left {
     padding: 10px;
     box-shadow: 5px 18px 10px  #888888;
 }
-
-/* End of images */
-
-
+/* End of Polaroid */
 
 /* =================
    form
@@ -278,11 +276,12 @@ input:focus {
 .stars {
     margin: 1em auto;
     width: 100%;
+    min-width: 300px;
 }
 
 .star {
-    margin: 0 7px;
-    width:65px;
+    margin: 0 5px;
+    width:45px;
     transform: scale(1);
     transition: transform 100ms;
 }
@@ -291,14 +290,14 @@ input:focus {
     transform: scale(1.2);
 }
 
-.contact-us h2 {
+.contact-us h1 {
     margin: 0 auto;
     max-width: 300px;
     transform: scale(1);
     transition: transform 200ms;
 }
 
-.contact-us h2:hover {
+.contact-us h1:hover {
     transform: scale(1.2);
 }
 
@@ -314,3 +313,4 @@ input:focus {
     from {transform: scale(1);}
     to {transform: scale(1.2);}
 }
+
