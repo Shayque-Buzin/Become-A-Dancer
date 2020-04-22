@@ -273,6 +273,7 @@ input:focus {
 
 /******* Stars *******/
 .stars {
+    padding-top: 2em;
     margin: 1em auto;
     width: 100%;
 }
