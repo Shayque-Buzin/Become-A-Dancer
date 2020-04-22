@@ -277,12 +277,11 @@ input:focus {
 .stars {
     margin: 1em auto;
     width: 100%;
-    min-width: 300px;
 }
 
 .star {
     margin: 0 5px;
-    width:45px;
+    width:2.5em;
     transform: scale(1);
     transition: transform 100ms;
 }
@@ -293,7 +292,7 @@ input:focus {
 
 .contact-us h1 {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 80%;
     transform: scale(1);
     transition: transform 200ms;
 }
