@@ -207,7 +207,7 @@ div.rotate_left {
 .contact-us {
     color: white;
     border: 1px solid black;
-    padding: 100px;
+    padding: 1em;
     background-image: url(../images/Blue\ splash.jpg);
     background-position: center;
     background-size: cover;
