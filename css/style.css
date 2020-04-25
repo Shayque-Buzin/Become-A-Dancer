@@ -227,10 +227,12 @@ div.rotate_left {
     /* font-family: 'Bellefair', serif; */
     color: white;
     padding: 1em;
+    background-color: rgb(202, 238, 250);
     background-image: url(../images/Blue\ splash.jpg);
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-blend-mode: luminosity;
     height: 100%;
     text-align: center;
     margin: 0 auto;
