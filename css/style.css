@@ -40,11 +40,17 @@ h2 {
 /***** welcome *****/
 
 .container-star-img {
-    width:100%; 
+    opacity: 0.2;
+    width: 45%;
+    position: absolute;
+    padding: 10px;
+    top: 10px;
+    left: 0;
 }
 
 .container-logo-img {
-    padding: 0 7px 7px 7px;
+    width: 75%;
+    padding: 10px;
 }
 
 .welcome {
@@ -165,6 +171,9 @@ ul {
 }
 .arrow-bullet li {
     background-image: url("../images/arrow-icon-blue-1.png");
+}
+.heart-bullet li{
+    background-image: url("../images/empty-blue-heart-icon.png");
 }
 
 li {
@@ -335,7 +344,6 @@ input:focus {
     to {transform: scale(1.2);}
 }
 
-footer {
-    margin: 5px;
-    padding: 5px;
+.dance-img {
+    padding: 50px 10px;
 }
